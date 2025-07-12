@@ -41,11 +41,7 @@ def git_update():
         print(f"An error occurred: {e}")
 
 # Schedule the task to run every 10 minutes
-<<<<<<< HEAD
-schedule.every(5).seconds.do(git_update)
-=======
 schedule.every(1).seconds.do(git_update)
->>>>>>> 0d633258071d32249d285d90115fcd546587dd85
 
 # Print a message to indicate the script is running
 print("GitHub auto-update script is running. Updates scheduled every 1 minutes...")
